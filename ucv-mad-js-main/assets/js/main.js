@@ -41,3 +41,38 @@ function changeEmojiColor(elem) {
     const b = randInt(0,255);
     elem.style.fill = "rgb("+r+","+g+","+b+")";
 }
+
+
+function hoverDado(elem) {
+    const r = randInt(0,255);
+    const g = randInt(0,255);
+    const b = randInt(0,255);
+    elem.style.fill = "rgb("+r+","+g+","+b+")";
+}
+
+function hoverDadoOut(elem) {
+    const r = randInt(0,255);
+    const g = randInt(0,255);
+    const b = randInt(0,255);
+    elem.style.fill = "rgb("+r+","+g+","+b+")";
+}
+
+function cambiofondo(elem) {
+    const mivector = document.getElementsByTagName("main");
+    mivector[0].style.backgroundImage= "url('./assets/img/paisaje.jpg')";
+
+    const head = document.getElementsByTagName("header");
+    head[0].style.backgroundColor= "black";
+
+    const titulo = document.getElementsByTagName("h1");
+    titulo[0].style.color= "white";
+
+    const footer = document.getElementsByTagName("footer");
+    footer[0].style.backgroundColor= "black";
+
+    const autor = document.getElementsByTagName("h2");
+    autor[0].style.color= "white";
+
+}
+
+
